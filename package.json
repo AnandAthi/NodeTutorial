@@ -1,0 +1,14 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "Test NPM Command",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Kiamz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
