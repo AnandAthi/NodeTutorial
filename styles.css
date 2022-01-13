@@ -1,0 +1,19 @@
+.title {
+    color: #ff0000ff;
+    background-color: aqua;
+    text-align: center;
+}
+
+.title.home {
+    color: #0000ffff;
+    background-color: beige;
+    text-align: center;
+}
+
+.textcontainer {
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
