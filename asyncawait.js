@@ -1,6 +1,4 @@
 const {readFile} = require('fs')
-const util = require('util')
-const readFilePromise = util.promisify(readFile)
 
 
 const readTextFile = (path) => {
@@ -16,7 +14,7 @@ const readTextFile = (path) => {
 
 const readFileAsync = async (path) =>{
 try{
-    const fileContent = await readFilePromise(path,{encoding:'utf-8'});
+    const fileContent = await readTextFile(path);
     console.log("FileContent "+fileContent);
 }catch(err){
     console.log(`Error ${err}`);
